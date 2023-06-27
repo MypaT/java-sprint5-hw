@@ -12,7 +12,6 @@ import java.util.HashMap;
 
 public class InMemoryHistoryManager implements HistoryManager {
     private final CustomLinkedList<Task> historyTasks = new CustomLinkedList<>();
-    //private final Map<Integer, Node> historyView = new HashMap<>();
 
     @Override
     public void add(Task task) {
