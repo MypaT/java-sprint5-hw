@@ -308,5 +308,6 @@ public class AutoTest {
         taskManager.deleteEpicById(idEpic1);
         System.out.println("");
         printHistory();
+
     }
 }
